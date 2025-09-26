@@ -4,8 +4,6 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <name>Projeto de Gestão de Cursos</name>
-    <description>Projeto Gestão de Cursos usando Hibernate e JPA</description>
     <groupId>com.techcamps.gestao.cursos</groupId>
     <artifactId>gestao-cursos-api</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -15,7 +13,6 @@
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
         <dependency>
@@ -42,5 +39,4 @@
             <version>0.1.2</version>
         </dependency>
     </dependencies>
-
 </project>
